@@ -79,3 +79,4 @@ and use a conversion to compute daily amount of water.
 We use such informations to independently configure the 3 plants to obtain for each one an efficiently irrigation
 using the least amount of water possible. 
 
+You could see demo video of the smart garden system prototype here: https://youtu.be/lEIoWrTcgDA
