@@ -23,7 +23,7 @@
 /* slave specific values */
 int SLAVE_ADDRESS = 3;
 int DEMO_WATER_VOLUME = 30; //volume of water for the demo/override expressed in cm3
-int DEMO_SLAVE_DELAY = 20000; //30 seconds
+int DEMO_SLAVE_DELAY = 20000; //30 seconds 
 
 //plant specific
 float CROP_COEFF = 0.9; //crop coefficient
