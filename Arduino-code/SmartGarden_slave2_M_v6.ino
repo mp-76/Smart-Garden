@@ -42,7 +42,7 @@ time_t previous_timestamp;
 float previous_press_atm;
 
 int SERVER_ADDRESS = 254;
-int SDI = 2000; //slave TX delay in milliseconds from the reference SYNC msg reception
+int SDI = 1000; //slave TX delay in milliseconds from the reference SYNC msg reception
 
 float ET0[13]={0.0, 0.6, 1.1, 2.0, 3.0, 4.4, 5.3, 5.5, 4.8, 3.1, 1.8, 0.8, 0.5}; //ET0 values for the months
 float PLANTING_DENSITY = 1.0;
