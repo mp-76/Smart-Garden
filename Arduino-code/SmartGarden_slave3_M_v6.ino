@@ -229,9 +229,9 @@ void processData()
   {
     if((previous_timestamp+86400) <= myData.timestamp) //watering can be made just with at least 24h intervals between them
     {
-      if(computeWeeklyWater() < myData.s_1_max_cm3_week) //customize in other slaves..
+      if(computeWeeklyWater() < myData.s_3_max_cm3_week) //customize in other slaves..
       {
-        if(getSoilHumidity() < myData.s_1_humidity_th) //customize in other slaves..
+        if(getSoilHumidity() < myData.s_3_humidity_th) //customize in other slaves..
         {
           if(myData.light_intensity < LIGHT_TH) //give water only if light is under the threshold
           {
